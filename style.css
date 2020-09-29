@@ -69,11 +69,12 @@ body {
 }
 
 .join {
-	color: #222;
-	font-size: 44px;
-	font-weight:700;
-	float: left;
-	text-shadow: 1px 0 1px #777;
+    color: #222;
+    font-size: 36px;
+    font-weight: 100;
+    float: none;
+}
+
 }
 .lock {
 	float: right;
