@@ -9,7 +9,6 @@
     });
       
     FB.AppEvents.logPageView();   
-      
   };
 
   (function(d, s, id){
