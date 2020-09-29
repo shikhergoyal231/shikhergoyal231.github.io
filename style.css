@@ -132,15 +132,15 @@ body {
     display: inline-block;
     text-align: center;
     vertical-align: middle;
-	width: 260px;
-	height:40px;
-	padding-top: 10px;
+    width: 260px;
+    height: 40px;
+    padding-top: 10px;
     border: 0px solid #178bb6;
     border-radius: 8px;
-    background: #d34836;
+    background: #eae8e7;
     font-family: 'Open Sans', sans-serif;
-	font-weight:700;
-    color: #ffffff;
+    font-weight: 700;
+    color: #000000;
     text-decoration: none;
 }
 
