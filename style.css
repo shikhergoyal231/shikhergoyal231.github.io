@@ -146,10 +146,10 @@ body {
     text-decoration: none;
 }
 
-.google:active {
+.g-signin2:active {
     background: #1ca4d6;
 }
-.google:before{
+.g-signin2:before{
     content:  "\0000a0";
     display: inline-block;
     height: 50px;
