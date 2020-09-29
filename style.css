@@ -137,8 +137,9 @@ body {
     height: 40px;
     padding-top: 10px;
     border: 0px solid #178bb6;
+    box-shadow: 1px 1px 1px 1px #888888;
     border-radius: 8px;
-    background: #eae8e7;
+    background: #ffffff;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     color: #000000;
