@@ -1,6 +1,6 @@
 function validate(){
-var username = document.getElementById("firstname").value;
-var password = document.getElementById("lastname").value;
+var firstname = document.getElementById("firstname").value;
+var lastname = document.getElementById("lastname").value;
 if ( username == "Formget" && password == "formget#123"){
 alert ("Login successfully");
 window.location = "index.html"; // Redirecting to other page.
