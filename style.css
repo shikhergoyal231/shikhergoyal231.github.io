@@ -128,45 +128,7 @@ body {
 	-o-border-radius: 8px 0px 0px 8px;
 	-ms-border-radius: 8px 0px 0px 8px;
 	border-radius: 8px 0px 0px 8px;
-}
-.google {
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    width: 260px;
-    height: 40px;
-    padding-top: 10px;
-    border: 0px solid #178bb6;
-    box-shadow: 1px 1px 1px 1px #888888;
-    border-radius: 8px;
-    background: #ffffff;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    color: #000000;
-    text-decoration: none;
-}
 
-.google:active {
-    background: #1ca4d6;
-}
-.google:before{
-    content:  "\0000a0";
-    display: inline-block;
-    height: 50px;
-    width: 45px;
-    line-height: 24px;
-    margin: 0 4px -6px -4px;
-    position: relative;
-	padding-left: 10px;
-    top: -10px;
-    left: -15px;
-    background: url("https://i.imgur.com/ElWjENc.png") no-repeat center center #ffffff;
-    background-size: 24px 24px;
-	-webkit-border-radius: 8px 0px 0px 8px;
-	-moz-border-radius: 8px 0px 0px 8px;
-	-o-border-radius: 8px 0px 0px 8px;
-	-ms-border-radius: 8px 0px 0px 8px;
-	border-radius: 8px 0px 0px 8px;
 }
 
 
