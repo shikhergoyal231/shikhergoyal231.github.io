@@ -222,18 +222,18 @@ body { padding: 2em; }
     text-align: center;
     vertical-align: middle;
     padding: 10px 11px;
-    border: 0px solid #b96529;
+    border: 0px solid rgba(48, 168, 218, 1);
     border-radius: 8px;
-    background: #992828;
-    background: -webkit-gradient(linear, left top, left bottom, from(#e77e33), to(#e77e33));
-    background: -moz-linear-gradient(top, #e77e33, #e77e33);
-    background: linear-gradient(to bottom, #e77e33, #e77e33);
+    background: #2ca1cc;
+    background: -webkit-gradient(linear, left top, left bottom, from(#2ca1cc), to(#2ca1cc));
+    background: -moz-linear-gradient(top, #2ca1cc, #2ca1cc);
+    background: linear-gradient(to bottom, #2ca1cc, #2ca1cc);
     font-family: 'Open Sans', sans-serif;
-	font-weight:700;
+    font-weight: 300;
     color: #ffffff;
     text-decoration: none;
-	height: 31px;
-	margin-top: 20px;
+    height: 31px;
+    margin-top: 20px;
 }
 .create-acc:hover,
 .create-acc:focus {
