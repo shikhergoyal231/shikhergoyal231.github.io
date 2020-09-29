@@ -129,7 +129,7 @@ body {
 	-ms-border-radius: 8px 0px 0px 8px;
 	border-radius: 8px 0px 0px 8px;
 }
-.g-signin2 {
+.google {
     display: inline-block;
     text-align: center;
     vertical-align: middle;
@@ -146,10 +146,10 @@ body {
     text-decoration: none;
 }
 
-.g-signin2:active {
+.google:active {
     background: #1ca4d6;
 }
-.g-signin2:before{
+.google:before{
     content:  "\0000a0";
     display: inline-block;
     height: 50px;
