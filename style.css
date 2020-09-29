@@ -47,7 +47,7 @@ table {
 /* Reset End */
 .clr { clear: both;}
 body {
-	background: #2ca1cc;
+	background: #000000;
 	margin: 0 auto;
 	padding: 0 auto;
 	font-family: 'Open Sans', sans-serif;
@@ -64,6 +64,7 @@ body {
 	-moz-border-radius: 5px;
 	-o-border-radius: 5px;
 	-ms-border-radius: 5px;
+	 border: 1px solid black;
 	border-radius: 5px;
 	padding: 40px;
 }
