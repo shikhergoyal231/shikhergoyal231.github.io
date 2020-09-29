@@ -187,7 +187,7 @@ body { padding: 2em; }
 .forms input {
 	border: 1px solid #d9d9d9 !important;
 	color: #bebebe;
-	padding: 7px 0px 7px 50px;
+	padding: 7px 0px 7px 5px;
 	outline:none;
     transition: all 0.25s ease-in-out;
     -webkit-transition: all 0.25s ease-in-out;
