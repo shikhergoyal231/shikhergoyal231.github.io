@@ -12,15 +12,14 @@ $("#login-box-link").click(function(){
   $("#signup-box-link").removeClass("active");
 });
 
-$.ajax({
-    url: "https://reqres.in/api/users",
-    data: {},
-    beforeSend: function(){}
-}).done(function(response) {
-    var trArr = new Array();
-    $.each(response.data, function(i, v){
-    	trArr.push('<tr><td>' + v.id + '</td><td>' + v.first_name + '</td><td>' + v.last_name + '</td><td><img src="' + v.avatar + '" width="120px" /></td></tr>');
-    });
-    $('table#alk-table tbody').append(trArr.join('\n'));
-});
-
+$.ajax(
+{
+url: "https://reqres.in/api/users?per_page=10",
+method: "get",
+dataType: "json"
+}).done(function(res){
+  res.data.map((item)=>
+  {
+    console.log(item.firstname + " "+ item.lastname)
+  });
+});;
