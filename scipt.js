@@ -1,27 +1,3 @@
-
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '{your-app-id}',
-      cookie     : true,
-      xfbml      : true,
-      version    : '{api-version}'
-    });
-      
-    FB.AppEvents.logPageView();   
-  };
-
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "https://connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script>
-
-
-
 $(".email-signup").hide();
 $("#signup-box-link").click(function(){
   $(".email-login").fadeOut(100);
@@ -35,3 +11,18 @@ $("#login-box-link").click(function(){
   $("#login-box-link").addClass("active");
   $("#signup-box-link").removeClass("active");
 });
+
+$.ajax({
+    url: "https://reqres.in/api/users",
+    type: "POST",
+    data: {
+        name: "paul rudd",
+        movies: ["I Love You Man", "Role Models"]
+    },
+    success: function(response){
+        console.log(response);
+    }
+});
+	
+
+
