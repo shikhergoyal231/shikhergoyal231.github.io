@@ -186,3 +186,9 @@ body { padding: 2em; }
   color: #fff;
   text-decoration: underline;
 }
+
+
+p {
+    display: block;
+    margin-bottom: 5px; 
+}
