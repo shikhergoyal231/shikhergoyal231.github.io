@@ -190,5 +190,6 @@ body { padding: 2em; }
 
 p {
     display: block;
-    margin-bottom: 5px; 
+    padding-bottom: 10px;
+    margin-bottom: 0px;
 }
