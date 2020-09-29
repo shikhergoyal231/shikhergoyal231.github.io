@@ -78,7 +78,6 @@ body {
 }
 .lock {
 	float: right;
-	background:url("https://i.imgur.com/Jsq8WUM.png") no-repeat;
 	width:14px;
 	height:18px;
 	margin-top: 12px;
@@ -202,17 +201,17 @@ body { padding: 2em; }
     border:1px solid rgba(48, 168, 218, 1) !important; 
 }
 .forms #username {
-	background:url("https://i.imgur.com/n6engUt.png") no-repeat left center;
+	
 	background-position: 10px 5px;
 	border-right: 1px solid #f1f1f1;
 }
 .forms #mail {
-	background:url("https://i.imgur.com/xCWr97f.png") no-repeat left center;
+	
 	background-position: 10px 10px;
 	border-right: 1px solid #f1f1f1;
 }
 .forms #password {
-	background:url("https://i.imgur.com/69UwNcl.png") no-repeat left center;
+	
 	background-position: 10px 5px;
 	border-right: 1px solid #f1f1f1;
 }
