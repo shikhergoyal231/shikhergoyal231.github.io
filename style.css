@@ -95,10 +95,11 @@ body {
     vertical-align: middle;
     width: 260px;
     height: 40px;
+    box-shadow: 1px 1px 1px #888888;
     padding-top: 8px;
     border: 0px solid #383333;
     border-radius: 8px;
-    background: #f1f1f1;
+    background: #ffffff;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     color: #060606;
