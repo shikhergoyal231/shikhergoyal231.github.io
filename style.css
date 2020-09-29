@@ -105,12 +105,7 @@ body {
     text-decoration: none;
     margin-right: 10px;
 }
-.facebook:hover,
-.facebook:focus {
-    background: #37528c;
-    color: #ffffff;
-    text-decoration: none;
-}
+
 .facebook:active {
     background: #1ca4d6;
 }
@@ -148,12 +143,7 @@ body {
     color: #ffffff;
     text-decoration: none;
 }
-.google:hover,
-.google:focus {
-    background: #c74534;
-    color: #ffffff;
-    text-decoration: none;
-}
+
 .google:active {
     background: #1ca4d6;
 }
