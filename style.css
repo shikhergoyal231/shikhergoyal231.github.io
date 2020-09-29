@@ -89,47 +89,6 @@ body {
 	margin-bottom: 25px;
 }
 
-.facebook {
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    width: 260px;
-    height: 42px;
-    box-shadow: 1px 1px 1px 1px #888888;
-    padding-top: 8px;
-    border: 0px solid #383333;
-    border-radius: 8px;
-    background: #ffffff;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    color: #060606;
-    text-decoration: none;
-    margin-right: 10px;
-}
-
-.facebook:active {
-    background: #1ca4d6;
-}
-.facebook:before{
-    content:  "\0000a0";
-    display: inline-block;
-    height: 50px;
-    width: 45px;
-    line-height: 24px;
-    margin: 2px 4px -6px -4px;
-    position: relative;
-	padding-left: 10px;
-    top: -10px;
-    left: -10px;
-    background: url("https://i.imgur.com/mWO1ozE.png") no-repeat center center #ffffff;
-    background-size: 25px 24px;
-	-webkit-border-radius: 8px 0px 0px 8px;
-	-moz-border-radius: 8px 0px 0px 8px;
-	-o-border-radius: 8px 0px 0px 8px;
-	-ms-border-radius: 8px 0px 0px 8px;
-	border-radius: 8px 0px 0px 8px;
-
-}
 
 
 body { padding: 2em; }
